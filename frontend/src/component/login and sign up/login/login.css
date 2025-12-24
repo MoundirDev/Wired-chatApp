@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 600px;
+  border-radius: 14px;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+
+.left-section {
+  width: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 91, 255, 0.95),
+    rgba(81, 140, 141, 0.9)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.left-section h2 {
+  padding: 10px 20px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.left-section p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.right-section {
+  width: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 123, 255, 0.8),
+    rgba(63, 74, 153, 0.8)
+  );
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.right-section h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  margin-top: -30px;
+}
+.forgotpass {
+  font-size: 20px;
+  margin-left: -30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.forgotpass:hover {
+  color: rgb(42, 42, 182);
+}
+.sign Link {
+  cursor: pointer;
+  padding-left: 40px;
+}
+.sign Link:hover {
+  color: rgb(42, 42, 182);
+}
+.sign {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
